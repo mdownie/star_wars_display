@@ -1,0 +1,7 @@
+star_wars_display.display:
+  path: '/'
+  defaults:
+    _controller: '\Drupal\star_wars_display\Controller\StarWarsDisplayController::output'
+    _title: ''
+  requirements:
+    _access: 'TRUE'

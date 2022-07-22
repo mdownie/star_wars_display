@@ -1,0 +1,4 @@
+sw_styles:
+  css:
+    component:
+      css/sw_styles.css: {}

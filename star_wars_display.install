@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Installation functions for Star Wars Display.
+ */
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function star_wars_display_install() {
+  user_role_change_permissions(RoleInterface::ANONYMOUS_ID, array(
+    'Display Star Wars Film Info' => TRUE,
+  ));
+}

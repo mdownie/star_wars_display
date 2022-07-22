@@ -1,0 +1,6 @@
+type: module
+name: Star Wars Display
+description: 'Module to display Star Wars movie info'
+package: 'Star Wars'
+core: '8.x'
+core_version_requirement: ^8 || ^9

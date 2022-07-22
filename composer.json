@@ -1,0 +1,19 @@
+{
+    "name": "mdownie/star_wars_display",
+    "description": "Displays information about Star Wars films.",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Mdownie\\StarWarsDisplay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthew Downie",
+            "email": "matthewjdownie@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

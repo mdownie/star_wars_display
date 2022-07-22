@@ -1,0 +1,21 @@
+star_wars_display.settings:
+  type: config_object
+  label: 'Star Wars Display settings'
+  mapping:
+    star_wars_display:
+      type: mapping
+      mapping:
+        page_title:
+          type: text
+          label: 'Star Wars Display page title:'
+        source_text:
+          type: text
+          label: 'Test for Star Wars Display generation:'
+
+block.settings.star_wars_display_block:
+  type: block_settings
+  label: 'Star Wars Display block'
+  mapping:
+    star_wars_display_block_settings:
+      type: text
+      label: 'Star Wars Display block settings'

@@ -1,0 +1,12 @@
+  {{ attach_library('star_wars_display/sw_styles') }}
+  <div>
+  {% for film in film_info|slice(0, how_many) %}
+    <div class="star-wars-film-info">
+      Title: {{ film['title'] }} <br />
+      Episode #: {{ film['episode'] }} <br />
+      Directed by: {{ film['director'] }} <br />
+      Produced by: {{ film['producer'] }} <br />
+      Released on: {{ film['release_date'] }} <br />
+    </div>
+  {% endfor %}
+  </div>
